@@ -1,0 +1,54 @@
+@import url('https://fonts.cdnfonts.com/css/inter');
+@import url('https://fonts.cdnfonts.com/css/gotham');
+/* ===== Scrollbar CSS ===== */
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #30373d;
+    border-radius: 0.5rem;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #686868;
+    border-radius: 0.5rem;
+    border: 0px none #30373d;
+  }
+* {
+  color-scheme: dark;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+    scrollbar-width: auto;
+    scrollbar-color: #686868 #30373d;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: snow;
+  background: #070809;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+img.emoji {
+   height: 1em;
+   width: 1em;
+   margin: 0 .05em 0 .1em;
+   vertical-align: -0.1em;
+}
