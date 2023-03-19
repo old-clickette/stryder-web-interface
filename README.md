@@ -1,4 +1,4 @@
-# Stryder Web Interface  [![Build](https://github.com/clickette/stryder-web-interface/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/clickette/stryder-web-interface/actions/workflows/build.yml)
+# Stryder Web Interface  [![Build Static Content](https://github.com/clickette/stryder-web-interface/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/clickette/stryder-web-interface/actions/workflows/build.yml)
 
 🤖 **Get instant answers with Stryder - the secure and private AI chatbot from Clickette. Now with a new interface!**
 
