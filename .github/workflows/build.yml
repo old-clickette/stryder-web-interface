@@ -22,7 +22,7 @@ jobs:
       - name: Next Pages
         uses: anorcle/next-pages@v1.0
         with:
-          outputDir: ./static
+          outputDir: /static
       - name: Commit and push changes
         run: |
           git config --global user.name "ClaytonTDM"
