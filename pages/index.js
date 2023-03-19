@@ -47,7 +47,7 @@ export default function Home() {
     const context = [...messages, { role: "user", content: userInput }];
     setMessages(context);
     // Send chat history to API
-    const response = await fetch("/api/chat", {
+    const response = await fetch("https://gpt-backend.clickette.net/api/chat", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
