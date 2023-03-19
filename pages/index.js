@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from 'react'
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import Image from 'next/image'
+// import Image from 'next/image'
 import ReactMarkdown from 'react-markdown'
 import CircularProgress from '@mui/material/CircularProgress';
 
@@ -106,7 +106,7 @@ export default function Home() {
                 // The latest message sent by the user will be animated while waiting for a response
                 <div key={index} className={message.role === "user" && loading && index === messages.length - 1 ? styles.usermessagewaiting : message.role === "assistant" ? styles.apimessage : styles.usermessage}>
                   {/* Display the correct icon depending on the message type */}
-                  {message.role === "assistant" ? <Image src="/stryder.png" alt="AI" width="30" height="30" className={styles.boticon} priority={true} /> : <Image src="/usericon.png" alt="Me" width="30" height="30" className={styles.usericon} priority={true} />}
+                  {message.role === "assistant" ? <img src="/stryder.png" alt="AI" width="30" height="30" className={styles.boticon} priority={true} /> : <Image src="/usericon.png" alt="Me" width="30" height="30" className={styles.usericon} priority={true} />}
                   <div className={styles.markdownanswer}>
                     {/* Messages are being rendered in Markdown format */}
                     <ReactMarkdown linkTarget={"_blank"}>{message.content}</ReactMarkdown>
