@@ -94,9 +94,6 @@ export default function Home() {
         <div className={styles.navlogo}>
           <a href="/">Stryder</a>
         </div>
-        <div className={styles.navlinks}>
-          <a href="https://top.gg/bot/1077463813244325958" target="_blank">Discord Bot</a>
-        </div>
       </div>
       <main className={styles.main}>
         <div className={styles.cloud}>
