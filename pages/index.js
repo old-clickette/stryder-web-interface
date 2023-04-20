@@ -126,7 +126,7 @@ export default function Home() {
                 type="text"
                 id="userInput"
                 name="userInput"
-                placeholder={loading ? "Waiting for response..." : "Type your question..."}
+                placeholder={loading ? "If you see this, something went wrong. Try reloading." : "Type your question..."}
                 value={userInput}
                 onChange={e => setUserInput(e.target.value)}
                 className={styles.textarea}
